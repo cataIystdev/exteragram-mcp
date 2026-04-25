@@ -1,0 +1,52 @@
+{
+  "name": "exteragram-mcp",
+  "version": "1.0.0",
+  "description": "MCP-сервер для разработки плагинов exteraGram — генерация Python-кода, справочники, деплой через ADB",
+  "keywords": [
+    "mcp",
+    "exteragram",
+    "exteragram-plugins",
+    "telegram",
+    "plugin",
+    "android",
+    "model-context-protocol"
+  ],
+  "author": "CatalystDev",
+  "license": "MIT",
+  "homepage": "https://github.com/CataIystDev/exteragram-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CataIystDev/exteragram-mcp.git"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "exteragram-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src tests",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitest/coverage-v8": "^3.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.0.0"
+  }
+}
