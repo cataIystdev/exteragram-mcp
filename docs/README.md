@@ -1,4 +1,4 @@
-# Документация exteragram-mcp
+# Документация @catalystdev/exteragram-mcp
 
 MCP-сервер для разработки плагинов exteraGram — Telegram-клиента на Android.
 Предоставляет AI-агентам полный набор инструментов: генерация Python-кода,
@@ -47,7 +47,7 @@ docs/
   "mcpServers": {
     "exteragram": {
       "command": "npx",
-      "args": ["-y", "exteragram-mcp"],
+      "args": ["-y", "@catalystdev/exteragram-mcp"],
       "env": { "ADB_PATH": "adb" }
     }
   }

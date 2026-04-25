@@ -46,7 +46,7 @@ list_hook_filters, explain_pitfalls.
 async function main(): Promise<void> {
   const server = new McpServer(
     {
-      name: "exteragram-mcp",
+      name: "@catalystdev/exteragram-mcp",
       version: SERVER_VERSION,
     },
     {

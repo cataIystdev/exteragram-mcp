@@ -9,7 +9,7 @@
   "mcpServers": {
     "exteragram": {
       "command": "npx",
-      "args": ["-y", "exteragram-mcp"],
+      "args": ["-y", "@catalystdev/exteragram-mcp"],
       "env": {
         "ADB_PATH": "/usr/bin/adb"
       }
@@ -40,7 +40,7 @@
   "mcpServers": {
     "exteragram": {
       "command": "npx",
-      "args": ["-y", "exteragram-mcp"],
+      "args": ["-y", "@catalystdev/exteragram-mcp"],
       "env": { "ADB_PATH": "adb" }
     }
   }
@@ -64,7 +64,7 @@
   "mcpServers": {
     "exteragram": {
       "command": "npx",
-      "args": ["-y", "exteragram-mcp"],
+      "args": ["-y", "@catalystdev/exteragram-mcp"],
       "env": {
         "ADB_PATH": "adb",
         "ADB_SERIAL": "emulator-5554"

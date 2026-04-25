@@ -1,4 +1,4 @@
-# exteragram-mcp
+# @catalystdev/exteragram-mcp
 
 MCP-сервер для разработки плагинов exteraGram.
 
@@ -14,13 +14,13 @@ MCP-сервер для разработки плагинов exteraGram.
 ## Установка
 
 ```bash
-npx exteragram-mcp
+npx @catalystdev/exteragram-mcp
 ```
 
 Или глобально:
 
 ```bash
-npm install -g exteragram-mcp
+npm install -g @catalystdev/exteragram-mcp
 ```
 
 ## Конфигурация
@@ -34,7 +34,7 @@ npm install -g exteragram-mcp
   "mcpServers": {
     "exteragram": {
       "command": "npx",
-      "args": ["-y", "exteragram-mcp"],
+      "args": ["-y", "@catalystdev/exteragram-mcp"],
       "env": {
         "ADB_PATH": "adb"
       }
@@ -52,7 +52,7 @@ npm install -g exteragram-mcp
   "mcpServers": {
     "exteragram": {
       "command": "npx",
-      "args": ["-y", "exteragram-mcp"]
+      "args": ["-y", "@catalystdev/exteragram-mcp"]
     }
   }
 }
